@@ -1,0 +1,167 @@
+/* Dominic Funwela 11/18/2025 */
+
+body {
+	margin: 0;
+	background: -moz-linear-gradient(to bottom, #000000, #a3a3a3 40%); /* Firefox */
+	background: -o-linear-gradient(to bottom, #000000, #a3a3a3 40%); /* Opera */
+	background: -webkit-linear-gradient(to bottom, #000000, #a3a3a3 40%); /*Chrome, Safari */
+	background: linear-gradient(to bottom, #000000, #a3a3a3 40%); /*List the standard syntax last */
+	background-attachment: fixed;
+}
+
+header img {
+	width: 90%;
+	padding-top: 2em;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+nav {
+	font-family: "Bahnschrift condensed", Calibri, serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+nav ul {
+	padding: 2em;
+	width: 85%;
+	margin: -0.5em auto 1em auto;
+}
+
+nav li { 
+	list-style-type: none; /* remove bullets */
+	background-color: #db1a27;
+	margin-top: 0.2em; /* top spacing between buttons */
+	padding: 0.5em;
+	border-radius: 1em; /*rounded corners*/
+}
+
+/* mobile buttons for nav items */
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#records {
+	
+}
+
+#records p {
+	margin-top: 2em;
+}
+
+footer {
+	text-align: center;
+	font-size: 15px;
+	font-family: "Bahnschrift condensed", Calibri, serif;
+	clear: left;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	}
+	
+footer p {
+	margin-bottom: -0.9em;
+}
+	
+.bold {
+	font-weight: bold;
+}
+
+main {
+	font-family: Bahnschrift, Calibri, serif;
+}
+
+main h1 {
+	text-align: center;
+	font-size: 2em;
+}
+
+main p {
+	text-align: center;
+	margin: 1em;
+	font-size: 1.1em;
+}
+
+main img {
+	margin: .3em;
+	margin-right: 1.4em;
+	border: solid #000000;
+	border-width: 0.3em;
+	border-radius: 0.3em 0.3em 0.3em 0.3em;
+}
+
+main ul {
+	margin-top: -0.6em;
+}
+
+aside {
+	width: 90%;
+	margin: 0 auto;
+}
+
+aside p{
+	margin-top: 2.3em;
+	margin-bottom: .2em;
+	text-align: center;
+}
+
+aside iframe{
+	display: block;
+	width: 100%;
+	max-width: 35em;
+	margin: 0 auto;
+}
+
+.floatright {
+	float: right;
+}
+
+.floatleft {
+	float: left;
+}
+
+@media only screen and (min-width: 700px) {
+	header {
+		text-align: left;
+		width: 40%
+	}
+	
+	nav {
+		float: right;
+		margin-top: -6em;
+		margin-right: 2em;
+		margin-bottom: 0;
+		width: 55%;
+	}
+	
+	nav li {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		background: none;
+		display: inline-block;
+	}
+	
+	nav li a {
+		padding: 0.5em;
+		text-shadow: 0.2em 0.1em #3D3D35;
+	}
+	
+	main {
+		clear: right;
+	}
+	
+	nav li a:link {
+		color: #FFFFFF;
+	}
+	
+	nav li a:visited {
+		color: #db1a27;
+	}
+	
+	nav li a:hover {
+		color: #9D9D93;
+		font-style: italic;
+	}
+}
